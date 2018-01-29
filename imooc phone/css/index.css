@@ -1,0 +1,416 @@
+
+.header{
+	background-color: #f7f7f7;
+	
+}
+.header__wrap{
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+	position: relative; 
+	/*background-color: blue;*/
+}
+.header__logo{
+	width: 150px;
+	height: 38px;
+	background: url(../images/logo.png) no-repeat left center;
+	color: #07111B;
+	line-height: 38px;
+	font-size: 20px;
+	text-indent: 50px;
+	/*background-size: 38px 38px;*/
+	position: absolute;
+	top: 50%;
+	margin-top: -19px;
+	left: 20px;
+}
+.header__nav{
+	position: absolute;
+	right: 20px;
+	height: 38px;
+	top: 50%;
+	margin-top: -19px;
+	/*background: yellow;*/
+}
+.header__nav-item{
+	color: #292F35;
+	font-size: 14px;
+	padding-left: 40px;
+	display: inline-block;
+	/*display: block;	*/
+	width: 30px;
+	text-align: center;
+	height: 38px;
+	float: left;
+	line-height: 38px;
+	position: relative;
+}
+.header__nav-item:hover{
+	color: #F01400;
+}
+.header__nav-item_status_active{
+	color: #F01400;
+}
+/*.header__nav-item_status_active::after{
+	content:" ";
+	display: block;
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: #F01400;
+}*/
+.header__nav-item_custom_button{
+	width: 90px;
+	background: #000;
+	color: #F4F4F5;
+	text-align: center;
+	border-radius: 3px;
+	padding: 0;
+	margin-left: 40px;
+}
+
+/*第一屏*/
+.screen-1{
+	height: 800px;
+	background-color: #E7E7E7;
+	position: relative;
+	background: url(../images/bg-screen-1.png) no-repeat center;
+	background-size: cover;
+	/*overflow: hidden;*/
+}
+.screen-1__heading{
+	font-weight: normal;
+	font-size: 46px;
+	text-align: center;
+	padding-top: 152px;
+}
+.screen-1__heading i{
+	font-style: normal;
+	color: #F01400;
+	font-weight: normal;
+}
+.screen-1__phone{
+	width: 1375px;
+	height: 305px;
+	background: url(../images/screen-1-phone.png) no-repeat center;
+	position: absolute;
+	left: 50%;
+	margin-left: -687px;
+	bottom: 180px;
+	z-index: 2;
+
+}
+.screen-1__shadow{
+	width: 1233px;
+	height: 411px;
+	background: url(../images/screen-1-shadow.png) no-repeat center;
+	position: absolute;
+	left: 50%;
+	margin-left: -616px;
+	bottom: 30px;
+	z-index: 1;
+	opacity: .8;
+}
+
+/*第二屏*/
+.screen-2{
+	background-color: #FAFAFA;
+	height: 800px;
+	position: relative;
+	overflow: hidden;
+}
+.screen-2__heading{
+	font-size: 46px;
+	line-height: 46px;
+	text-align: center;
+	padding-top: 96px;
+	color: #F01400;
+}
+.screen-2__subheading{
+	text-align: center;
+	font-size: 14px;
+	padding-top: 25px;
+	color: #2C3137;
+	line-height: 28px;
+}
+.screen-2__phone{
+	width: 928px;
+	height: 873px;
+	background: url(../images/bg-screen-2.png) no-repeat center;
+	position: absolute;
+	left: 50%;
+	margin-left: -464px;
+	bottom: -345px;
+}
+
+.screen-2__point{
+	width: 108px;
+	height: 22px;
+	padding-right: 112px;
+	font-size: 22px;
+	line-height: 22px;
+	color: #4D555D;
+	background: url(../images/icon-point-right.png) no-repeat right center;
+	position: absolute;
+}
+
+.screen-2__point_custom_right{
+	padding-right: 0;
+	padding-left: 112px;
+	background: url(../images/icon-point-left.png) no-repeat left center;
+}
+.screen-2__point_i_1{
+	top: 150px;
+	left: -164px;
+}
+.screen-2__point_i_2{
+	top: 30px;
+	right: 150px;
+}
+.screen-2__point_i_3{
+	top: 330px;
+	right: 30px;
+}
+/*第三屏*/
+.screen-3{
+	width: 100%;
+	height: 800px;
+	background-color: #AD0000;
+	overflow: hidden;
+}
+.screen-3__wrap{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+}
+.screen-3__heading{
+	font-size: 46px;
+	line-height: 46px;
+	color: #FFFFFF;
+	text-align: left;
+	padding-top: 94px;
+}
+.screen-3__subheading{
+	font-size: 14px;
+	padding-top: 25px;
+	color: #FFFFFF;
+	line-height: 28px;
+}
+.screen-3__phone{
+	width: 750px;
+	height: 900px;
+	background: url(../images/bg-screen-3.png) no-repeat center;
+	position: absolute;
+	right: 0;
+	top: 195px;
+	z-index: 2;
+}
+.screen-3__features{
+	width: 320px;
+	height: 280px;
+	position: absolute;
+	top: 395px;
+	left: 0;
+}
+.screen-3__features__item{
+	width: 138px;
+	height: 118px;
+	border: 1px solid #CB7173;
+	margin: 0 20px 20px 0;
+	float: left;
+	border-radius: 3px;
+	color: #FFF;
+	text-align: center;
+}
+.screen-3__features__item__number{
+	height: 36px;
+	font-size: 36px;
+	line-height: 36px;
+	padding: 28px 0 8px;
+}
+.screen-3__features__item__desc{
+	height: 14px;
+	font-size: 14px;
+	line-height: 14px;
+}
+/*第四屏*/
+.screen-4{
+	width: 100%;
+	height: 800px;
+	background-color: #FFF;
+	overflow: hidden;
+}
+.screen-4__wrap{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+}
+.screen-4__heading{
+	font-size: 46px;
+	line-height: 46px;
+	color: #F01400;
+	text-align: center;
+	padding-top: 135px;
+}
+.screen-4__subheading{
+	font-size: 14px;
+	color: #464A4F;
+	padding-top: 29px;
+	line-height: 28px;
+	text-align: center;
+}
+.screen-4__type{
+	width: 1260px;
+	height: 270px;
+	position: absolute;
+	top: 304px;
+	margin-left: 30px;
+}
+.screen-4__type__item{
+	width: 220px;
+	height: 270px;
+	margin-right: 90px;
+	float: left;
+	background-size: cover;
+	position: relative;
+	text-align: center;
+}
+.screen-4__type__item__i_1{
+	background: url(../images/phone-1.png) no-repeat 0 0;
+}
+.screen-4__type__item__i_2{
+	background: url(../images/phone-2.png) no-repeat 0 0;
+}
+.screen-4__type__item__i_3{
+	background: url(../images/phone-3.png) no-repeat 0 0;
+}
+.screen-4__type__item__i_4{
+	background: url(../images/phone-4.png) no-repeat 0 0;
+}
+.screen-4__type__item__color{
+	width: 100%;
+	height: 14px;
+	line-height: 14px;
+	font-size: 14px;
+	color: #2C3238;
+	position: absolute;
+	bottom: -44px;
+}
+
+.screen-4__type__item__storage{
+	width: 100%;
+	height: 12px;
+	font-size: 12px;
+	line-height: 12px;
+	color: #A4A9A1;
+	position: absolute;
+	bottom: -66px;
+}
+/*第五屏*/
+.screen-5{
+	height: 800px;
+	position: relative;
+	overflow: hidden;
+	background-color: #D9DDE1;
+}
+.screen-5__bg{
+	height: 470px;
+	width: 100%;
+	background: url(../images/bg-screen-5.png) no-repeat center;
+	background-size: cover;
+	position: absolute;
+	bottom: -100px;
+}
+.screen-5__heading{
+	font-size: 46px;
+	line-height: 46px;
+	text-align: center;
+	padding-top: 130px;
+	color: #F01400;
+}
+.screen-5__subheading{
+	text-align: center;
+	font-size: 14px;
+	padding-top: 25px;
+	color: #2C3137;
+	line-height: 28px;
+}
+
+
+
+/*第六购买屏*/
+.screen-buy{
+	height: 80px;
+	padding: 120px 0;
+	overflow: hidden;
+	text-align: center;
+	background: #2B333B url("../images/bg-screen-buy.png") no-repeat center;
+}
+
+.screen-buy__button{
+	display: inline-block;
+	height: 80px;
+	width: 240px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 24px;
+	color: #FFF;
+	background-color: #F01414;
+	border-radius: 5px;
+}
+.screen-buy__button:hover{
+	box-shadow: 0 0 10px #FFF;
+	transition: all .5s;
+}
+/*页脚*/
+.footer{
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	color: #FFF;
+	font-size: 12px;
+	background-color: #07111B;
+}
+
+.outline{
+	position: fixed;
+	padding: 5px 10px;
+	bottom: 120px;
+	right: 0;
+	z-index:3;
+	background-color: #FFF;
+	box-shadow: 0 4px 12px rgba(0,0,0,.5);
+}
+.outline__item{
+	display: block;
+	width: 40px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	padding: 5px 0;
+	margin-top: 5px;
+	border-top: 1px solid #eee;
+	color: #93999F;
+}
+.outline__item:first-child{
+	border: none;
+}
+.outline__item_status_active{
+	color: red;
+}
+
+
+.header__nav-tip{
+	position: absolute;
+	width: 30px;
+	height: 2px;
+	background-color: #f00;
+	bottom: 0;
+	left: 0;
+	margin-left: 40px;
+	transition: all .5s;
+}
